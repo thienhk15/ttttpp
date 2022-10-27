@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.btn{
+	position: absolute;
+	top: 95%;
+	left: 2%;
+}
+.button {
+	border: none;
+	color: #5f75b1;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 8px;
+	cursor: pointer;
+}
+
+span{
+	color: #f9004d;
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 80px;
+}
+h3{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+h2{
+	color:#fcfc;
+	font-size: 40px;
+}
+p a{
+	color: white;
+	font-size: 30px;
+}
+
+.member{
+	width: 100%;
+	padding: 140px 0px;
+	background-color: #16213E;
+}
+.member img{
+	height: auto;
+	width: 500px;
+}
+.member-text{
+	width: 500px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.member-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.member-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.member-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 10px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.member-text p strong{
+	color: white;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+a:hover {
+    opacity: 0.7;
+  }
+
+.container
+{
+    display:block;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    font-size: 20px;
+    background-color: #17254b;
+}
+#avatar
+{
+    border-radius: 50%;
+    border: 2px solid;
+    margin-left: 10%;
+    margin-right: 100px;
+    float: left;
+} 
+ .contact
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 100px;
+    background-color: #16213E;
+}
+.contact a{
+    margin-left: 60px;
+}
+
+
